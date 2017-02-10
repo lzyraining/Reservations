@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B5DB4A99B9A189CE41944711D8A562F /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6D47A072A3DCEA1F5ADBEF8A3EA398E /* ionicons.ttf */; };
+		5C0E7C4F366FDFED5F605FC54D732B74 /* IoniconsSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C17216FCA36E3494C8BF95D588564C4 /* IoniconsSwift-dummy.m */; };
+		78F217161D2B0A1E432DF7F6B11845E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9310E458FAFD47507173C3623A12DEC0 /* Pods-WellsFargoAssessment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3596E28D111FBDD3C6C6FC0C3A65DCCD /* Pods-WellsFargoAssessment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4AE6E7FEBD36A07FC607DE510BBF1DC /* IoniconsSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA9F8F650A08491297D0E5FD1C9F634 /* IoniconsSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0667CA76A7C9FF2F6AFF84168E14EFE /* ionicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F5ED0A123EF7B7D8D96656A11FFD88 /* ionicons.swift */; };
+		CF79AF26791BDB7EC79AD291E36EF62A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		D59E970779A13E0F9666A3E816AB5C6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E0345E05BF574C4112BB06FCDB0B29DC /* Pods-WellsFargoAssessment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A37C7D6041FEC958DEA04AFFB35AE63 /* Pods-WellsFargoAssessment-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2C607940056E3EB21EA0B38E6065C4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5AB2C856EB68E3ECE8C535BF5957A0;
+			remoteInfo = IoniconsSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A4455856E79A56971D59F9E39C86A0 /* Pods_WellsFargoAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WellsFargoAssessment.framework; path = "Pods-WellsFargoAssessment.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C644465C2E24CA44BE6B88B0D62BC85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3596E28D111FBDD3C6C6FC0C3A65DCCD /* Pods-WellsFargoAssessment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WellsFargoAssessment-umbrella.h"; sourceTree = "<group>"; };
+		5C17216FCA36E3494C8BF95D588564C4 /* IoniconsSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IoniconsSwift-dummy.m"; sourceTree = "<group>"; };
+		5D79EC162583962F7568DECEFC901932 /* IoniconsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IoniconsSwift.framework; path = IoniconsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7BFFC880033ABCEA6DA92674F7D17C /* Pods-WellsFargoAssessment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WellsFargoAssessment.modulemap"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FE38F789B61EB698E834F0F34633352 /* Pods-WellsFargoAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WellsFargoAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		70EA48364BC3F6BDE65128C16115F1A2 /* Pods-WellsFargoAssessment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WellsFargoAssessment-frameworks.sh"; sourceTree = "<group>"; };
+		76844232C018656AEE6CFC28714F6882 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BBE5390DE2FFE5C4E570A3B4C4EDBAC /* Pods-WellsFargoAssessment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WellsFargoAssessment-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		88F5ED0A123EF7B7D8D96656A11FFD88 /* ionicons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ionicons.swift; path = IoniconsSwift/ionicons.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A37C7D6041FEC958DEA04AFFB35AE63 /* Pods-WellsFargoAssessment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WellsFargoAssessment-dummy.m"; sourceTree = "<group>"; };
+		B2771BC23BBCCAE977318454852B0322 /* IoniconsSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IoniconsSwift.modulemap; sourceTree = "<group>"; };
+		BDA9F8F650A08491297D0E5FD1C9F634 /* IoniconsSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IoniconsSwift-umbrella.h"; sourceTree = "<group>"; };
+		BDCCE4F9EAE0D5F24B1F460867C7DF4A /* IoniconsSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IoniconsSwift-prefix.pch"; sourceTree = "<group>"; };
+		C467A0396A37C125799050AB016B0702 /* Pods-WellsFargoAssessment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WellsFargoAssessment-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8F97285C8CF3D788F55E5F4E719E2E9 /* IoniconsSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IoniconsSwift.xcconfig; sourceTree = "<group>"; };
+		EF3EB6669C0E2C642B322C58E5FF5EBA /* Pods-WellsFargoAssessment-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WellsFargoAssessment-resources.sh"; sourceTree = "<group>"; };
+		EF527B909F0EA5B76E1F41FD7165F981 /* Pods-WellsFargoAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WellsFargoAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D47A072A3DCEA1F5ADBEF8A3EA398E /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = IoniconsSwift/ionicons.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08103B4CF4812776E5FCE918B1E1850C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59E970779A13E0F9666A3E816AB5C6D /* Foundation.framework in Frameworks */,
+				CF79AF26791BDB7EC79AD291E36EF62A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84211CAFDE377E487642E98512751FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F217161D2B0A1E432DF7F6B11845E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF3E47E96F768D4657B80D71C9D23F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				475F97C037DF086293611241A6C31CDA /* IoniconsSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1DE616EAF825BC085AC0314A51A323F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CB104D22CA94DB856DEC1346BC83323 /* Pods-WellsFargoAssessment */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4209E9655EBBF52E51ED7EE86FD243D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6D47A072A3DCEA1F5ADBEF8A3EA398E /* ionicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		475F97C037DF086293611241A6C31CDA /* IoniconsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				88F5ED0A123EF7B7D8D96656A11FFD88 /* ionicons.swift */,
+				4209E9655EBBF52E51ED7EE86FD243D8 /* Resources */,
+				571E34F7E25CA4FA5CCF0F3C7AF98AE3 /* Support Files */,
+			);
+			name = IoniconsSwift;
+			path = IoniconsSwift;
+			sourceTree = "<group>";
+		};
+		571E34F7E25CA4FA5CCF0F3C7AF98AE3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76844232C018656AEE6CFC28714F6882 /* Info.plist */,
+				B2771BC23BBCCAE977318454852B0322 /* IoniconsSwift.modulemap */,
+				D8F97285C8CF3D788F55E5F4E719E2E9 /* IoniconsSwift.xcconfig */,
+				5C17216FCA36E3494C8BF95D588564C4 /* IoniconsSwift-dummy.m */,
+				BDCCE4F9EAE0D5F24B1F460867C7DF4A /* IoniconsSwift-prefix.pch */,
+				BDA9F8F650A08491297D0E5FD1C9F634 /* IoniconsSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IoniconsSwift";
+			sourceTree = "<group>";
+		};
+		5CB104D22CA94DB856DEC1346BC83323 /* Pods-WellsFargoAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				2C644465C2E24CA44BE6B88B0D62BC85 /* Info.plist */,
+				5D7BFFC880033ABCEA6DA92674F7D17C /* Pods-WellsFargoAssessment.modulemap */,
+				C467A0396A37C125799050AB016B0702 /* Pods-WellsFargoAssessment-acknowledgements.markdown */,
+				7BBE5390DE2FFE5C4E570A3B4C4EDBAC /* Pods-WellsFargoAssessment-acknowledgements.plist */,
+				9A37C7D6041FEC958DEA04AFFB35AE63 /* Pods-WellsFargoAssessment-dummy.m */,
+				70EA48364BC3F6BDE65128C16115F1A2 /* Pods-WellsFargoAssessment-frameworks.sh */,
+				EF3EB6669C0E2C642B322C58E5FF5EBA /* Pods-WellsFargoAssessment-resources.sh */,
+				3596E28D111FBDD3C6C6FC0C3A65DCCD /* Pods-WellsFargoAssessment-umbrella.h */,
+				EF527B909F0EA5B76E1F41FD7165F981 /* Pods-WellsFargoAssessment.debug.xcconfig */,
+				6FE38F789B61EB698E834F0F34633352 /* Pods-WellsFargoAssessment.release.xcconfig */,
+			);
+			name = "Pods-WellsFargoAssessment";
+			path = "Target Support Files/Pods-WellsFargoAssessment";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0CF3E47E96F768D4657B80D71C9D23F6 /* Pods */,
+				867FDA359E929352B91DF85A030EDF68 /* Products */,
+				1DE616EAF825BC085AC0314A51A323F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		867FDA359E929352B91DF85A030EDF68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D79EC162583962F7568DECEFC901932 /* IoniconsSwift.framework */,
+				11A4455856E79A56971D59F9E39C86A0 /* Pods_WellsFargoAssessment.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3161A954CD3BDF23E93CCC28D770A44C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AE6E7FEBD36A07FC607DE510BBF1DC /* IoniconsSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD0D113AC775295ABFF797AA22605E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9310E458FAFD47507173C3623A12DEC0 /* Pods-WellsFargoAssessment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B5AB2C856EB68E3ECE8C535BF5957A0 /* IoniconsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5666C1BE2926B5D196914EC98DA7D6D /* Build configuration list for PBXNativeTarget "IoniconsSwift" */;
+			buildPhases = (
+				657680F5008055BBDAA65ACD14ED2EBB /* Sources */,
+				08103B4CF4812776E5FCE918B1E1850C /* Frameworks */,
+				6F31CCDA75FDE2CCFA5F5A82EC3B2542 /* Resources */,
+				3161A954CD3BDF23E93CCC28D770A44C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IoniconsSwift;
+			productName = IoniconsSwift;
+			productReference = 5D79EC162583962F7568DECEFC901932 /* IoniconsSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A03191489F7B98B5DD762D48B835E237 /* Pods-WellsFargoAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D68BBCEDC5397934C9E587AF5AF99F /* Build configuration list for PBXNativeTarget "Pods-WellsFargoAssessment" */;
+			buildPhases = (
+				2128CAB65CA37E4616D62FB47A441EB0 /* Sources */,
+				A84211CAFDE377E487642E98512751FD /* Frameworks */,
+				6FD0D113AC775295ABFF797AA22605E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06045D73676D3921B50AAFA691FDE3C /* PBXTargetDependency */,
+			);
+			name = "Pods-WellsFargoAssessment";
+			productName = "Pods-WellsFargoAssessment";
+			productReference = 11A4455856E79A56971D59F9E39C86A0 /* Pods_WellsFargoAssessment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 867FDA359E929352B91DF85A030EDF68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B5AB2C856EB68E3ECE8C535BF5957A0 /* IoniconsSwift */,
+				A03191489F7B98B5DD762D48B835E237 /* Pods-WellsFargoAssessment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F31CCDA75FDE2CCFA5F5A82EC3B2542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5DB4A99B9A189CE41944711D8A562F /* ionicons.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2128CAB65CA37E4616D62FB47A441EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0345E05BF574C4112BB06FCDB0B29DC /* Pods-WellsFargoAssessment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657680F5008055BBDAA65ACD14ED2EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0667CA76A7C9FF2F6AFF84168E14EFE /* ionicons.swift in Sources */,
+				5C0E7C4F366FDFED5F605FC54D732B74 /* IoniconsSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D06045D73676D3921B50AAFA691FDE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IoniconsSwift;
+			target = 1B5AB2C856EB68E3ECE8C535BF5957A0 /* IoniconsSwift */;
+			targetProxy = B2C607940056E3EB21EA0B38E6065C4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15BA74DF37D30DE2C70954C00F3374B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE38F789B61EB698E834F0F34633352 /* Pods-WellsFargoAssessment.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WellsFargoAssessment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WellsFargoAssessment/Pods-WellsFargoAssessment.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WellsFargoAssessment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AC9F3AA201003DB3CDEA724D402031A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F97285C8CF3D788F55E5F4E719E2E9 /* IoniconsSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IoniconsSwift/IoniconsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IoniconsSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IoniconsSwift/IoniconsSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IoniconsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D17F4690E24F5B9EC2562BC83FC88A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F97285C8CF3D788F55E5F4E719E2E9 /* IoniconsSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IoniconsSwift/IoniconsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IoniconsSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IoniconsSwift/IoniconsSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IoniconsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED1570946FB57635DEE9DD1BE71A7D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF527B909F0EA5B76E1F41FD7165F981 /* Pods-WellsFargoAssessment.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WellsFargoAssessment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WellsFargoAssessment/Pods-WellsFargoAssessment.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WellsFargoAssessment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D68BBCEDC5397934C9E587AF5AF99F /* Build configuration list for PBXNativeTarget "Pods-WellsFargoAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1570946FB57635DEE9DD1BE71A7D1C /* Debug */,
+				15BA74DF37D30DE2C70954C00F3374B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5666C1BE2926B5D196914EC98DA7D6D /* Build configuration list for PBXNativeTarget "IoniconsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC9F3AA201003DB3CDEA724D402031A /* Debug */,
+				D17F4690E24F5B9EC2562BC83FC88A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

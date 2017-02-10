@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0323EEBF1E4C429600A50A6E /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323EEBE1E4C429600A50A6E /* CalendarCollectionViewCell.swift */; };
+		0323EEC11E4C42A600A50A6E /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323EEC01E4C42A600A50A6E /* TimeCollectionViewCell.swift */; };
+		0323EEE11E4CDA6000A50A6E /* CalendarCellHepler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323EEE01E4CDA6000A50A6E /* CalendarCellHepler.swift */; };
+		037C3BA81E4B9F1D00C858FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037C3BA71E4B9F1D00C858FA /* AppDelegate.swift */; };
+		037C3BAA1E4B9F1D00C858FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037C3BA91E4B9F1D00C858FA /* ViewController.swift */; };
+		037C3BAD1E4B9F1E00C858FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037C3BAB1E4B9F1E00C858FA /* Main.storyboard */; };
+		037C3BB01E4B9F1E00C858FA /* WellsFargoAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 037C3BAE1E4B9F1E00C858FA /* WellsFargoAssessment.xcdatamodeld */; };
+		037C3BB21E4B9F1E00C858FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037C3BB11E4B9F1E00C858FA /* Assets.xcassets */; };
+		037C3BB51E4B9F1E00C858FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037C3BB31E4B9F1E00C858FA /* LaunchScreen.storyboard */; };
+		037C3BC11E4BB77500C858FA /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037C3BC01E4BB77500C858FA /* ServiceViewController.swift */; };
+		037C3BC31E4BC3C200C858FA /* ServiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037C3BC21E4BC3C200C858FA /* ServiceCollectionViewCell.swift */; };
+		037C3BCF1E4C04BE00C858FA /* ScheduelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037C3BCE1E4C04BE00C858FA /* ScheduelViewController.swift */; };
+		03BFFC0B1E4D7DAD00225297 /* ReservationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFFC0A1E4D7DAD00225297 /* ReservationData.swift */; };
+		03BFFC0D1E4E07B400225297 /* ReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFFC0C1E4E07B400225297 /* ReservationTableViewCell.swift */; };
+		43D6971C30B6CB081AFBA893 /* Pods_WellsFargoAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292908B9C4CCC4FC66DB60B7 /* Pods_WellsFargoAssessment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0323EEBE1E4C429600A50A6E /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		0323EEC01E4C42A600A50A6E /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		0323EEE01E4CDA6000A50A6E /* CalendarCellHepler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCellHepler.swift; sourceTree = "<group>"; };
+		037C3BA41E4B9F1D00C858FA /* WellsFargoAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellsFargoAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037C3BA71E4B9F1D00C858FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		037C3BA91E4B9F1D00C858FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		037C3BAC1E4B9F1E00C858FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		037C3BAF1E4B9F1E00C858FA /* WellsFargoAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WellsFargoAssessment.xcdatamodel; sourceTree = "<group>"; };
+		037C3BB11E4B9F1E00C858FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		037C3BB41E4B9F1E00C858FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		037C3BB61E4B9F1E00C858FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037C3BC01E4BB77500C858FA /* ServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		037C3BC21E4BC3C200C858FA /* ServiceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCollectionViewCell.swift; sourceTree = "<group>"; };
+		037C3BCE1E4C04BE00C858FA /* ScheduelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduelViewController.swift; sourceTree = "<group>"; };
+		03BFFC0A1E4D7DAD00225297 /* ReservationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationData.swift; sourceTree = "<group>"; };
+		03BFFC0C1E4E07B400225297 /* ReservationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationTableViewCell.swift; sourceTree = "<group>"; };
+		292908B9C4CCC4FC66DB60B7 /* Pods_WellsFargoAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WellsFargoAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E850FA30518FFD7B506017 /* Pods-WellsFargoAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellsFargoAssessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-WellsFargoAssessment/Pods-WellsFargoAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		F57805186A24B074DBC836F0 /* Pods-WellsFargoAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellsFargoAssessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WellsFargoAssessment/Pods-WellsFargoAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037C3BA11E4B9F1D00C858FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D6971C30B6CB081AFBA893 /* Pods_WellsFargoAssessment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C3B9B1E4B9F1D00C858FA = {
+			isa = PBXGroup;
+			children = (
+				037C3BA61E4B9F1D00C858FA /* WellsFargoAssessment */,
+				037C3BA51E4B9F1D00C858FA /* Products */,
+				B91DF6A42768699B65E9A8A5 /* Pods */,
+				F4CC4F85A1A6C3778FC7DFCF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		037C3BA51E4B9F1D00C858FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037C3BA41E4B9F1D00C858FA /* WellsFargoAssessment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037C3BA61E4B9F1D00C858FA /* WellsFargoAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				037C3BA71E4B9F1D00C858FA /* AppDelegate.swift */,
+				037C3BA91E4B9F1D00C858FA /* ViewController.swift */,
+				037C3BC01E4BB77500C858FA /* ServiceViewController.swift */,
+				037C3BCE1E4C04BE00C858FA /* ScheduelViewController.swift */,
+				03BFFC0C1E4E07B400225297 /* ReservationTableViewCell.swift */,
+				037C3BC21E4BC3C200C858FA /* ServiceCollectionViewCell.swift */,
+				0323EEBE1E4C429600A50A6E /* CalendarCollectionViewCell.swift */,
+				0323EEC01E4C42A600A50A6E /* TimeCollectionViewCell.swift */,
+				0323EEE01E4CDA6000A50A6E /* CalendarCellHepler.swift */,
+				03BFFC0A1E4D7DAD00225297 /* ReservationData.swift */,
+				037C3BAB1E4B9F1E00C858FA /* Main.storyboard */,
+				037C3BB11E4B9F1E00C858FA /* Assets.xcassets */,
+				037C3BB31E4B9F1E00C858FA /* LaunchScreen.storyboard */,
+				037C3BB61E4B9F1E00C858FA /* Info.plist */,
+				037C3BAE1E4B9F1E00C858FA /* WellsFargoAssessment.xcdatamodeld */,
+			);
+			path = WellsFargoAssessment;
+			sourceTree = "<group>";
+		};
+		B91DF6A42768699B65E9A8A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F57805186A24B074DBC836F0 /* Pods-WellsFargoAssessment.debug.xcconfig */,
+				33E850FA30518FFD7B506017 /* Pods-WellsFargoAssessment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4CC4F85A1A6C3778FC7DFCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				292908B9C4CCC4FC66DB60B7 /* Pods_WellsFargoAssessment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037C3BA31E4B9F1D00C858FA /* WellsFargoAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037C3BB91E4B9F1E00C858FA /* Build configuration list for PBXNativeTarget "WellsFargoAssessment" */;
+			buildPhases = (
+				5E79AEAFC3CA6BCDCC59A9D2 /* [CP] Check Pods Manifest.lock */,
+				037C3BA01E4B9F1D00C858FA /* Sources */,
+				037C3BA11E4B9F1D00C858FA /* Frameworks */,
+				037C3BA21E4B9F1D00C858FA /* Resources */,
+				47DAECB951CAA00B782CCF5A /* [CP] Embed Pods Frameworks */,
+				21C18F027E12EBC7AC4C7B00 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellsFargoAssessment;
+			productName = WellsFargoAssessment;
+			productReference = 037C3BA41E4B9F1D00C858FA /* WellsFargoAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037C3B9C1E4B9F1D00C858FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Joe;
+				TargetAttributes = {
+					037C3BA31E4B9F1D00C858FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 037C3B9F1E4B9F1D00C858FA /* Build configuration list for PBXProject "WellsFargoAssessment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037C3B9B1E4B9F1D00C858FA;
+			productRefGroup = 037C3BA51E4B9F1D00C858FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037C3BA31E4B9F1D00C858FA /* WellsFargoAssessment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037C3BA21E4B9F1D00C858FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037C3BB51E4B9F1E00C858FA /* LaunchScreen.storyboard in Resources */,
+				037C3BB21E4B9F1E00C858FA /* Assets.xcassets in Resources */,
+				037C3BAD1E4B9F1E00C858FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21C18F027E12EBC7AC4C7B00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WellsFargoAssessment/Pods-WellsFargoAssessment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47DAECB951CAA00B782CCF5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WellsFargoAssessment/Pods-WellsFargoAssessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E79AEAFC3CA6BCDCC59A9D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037C3BA01E4B9F1D00C858FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BFFC0B1E4D7DAD00225297 /* ReservationData.swift in Sources */,
+				037C3BC31E4BC3C200C858FA /* ServiceCollectionViewCell.swift in Sources */,
+				0323EEBF1E4C429600A50A6E /* CalendarCollectionViewCell.swift in Sources */,
+				037C3BB01E4B9F1E00C858FA /* WellsFargoAssessment.xcdatamodeld in Sources */,
+				03BFFC0D1E4E07B400225297 /* ReservationTableViewCell.swift in Sources */,
+				037C3BAA1E4B9F1D00C858FA /* ViewController.swift in Sources */,
+				037C3BC11E4BB77500C858FA /* ServiceViewController.swift in Sources */,
+				0323EEC11E4C42A600A50A6E /* TimeCollectionViewCell.swift in Sources */,
+				037C3BA81E4B9F1D00C858FA /* AppDelegate.swift in Sources */,
+				0323EEE11E4CDA6000A50A6E /* CalendarCellHepler.swift in Sources */,
+				037C3BCF1E4C04BE00C858FA /* ScheduelViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		037C3BAB1E4B9F1E00C858FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037C3BAC1E4B9F1E00C858FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		037C3BB31E4B9F1E00C858FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037C3BB41E4B9F1E00C858FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		037C3BB71E4B9F1E00C858FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		037C3BB81E4B9F1E00C858FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037C3BBA1E4B9F1E00C858FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57805186A24B074DBC836F0 /* Pods-WellsFargoAssessment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WellsFargoAssessment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joe.WellsFargoAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		037C3BBB1E4B9F1E00C858FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E850FA30518FFD7B506017 /* Pods-WellsFargoAssessment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WellsFargoAssessment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joe.WellsFargoAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037C3B9F1E4B9F1D00C858FA /* Build configuration list for PBXProject "WellsFargoAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037C3BB71E4B9F1E00C858FA /* Debug */,
+				037C3BB81E4B9F1E00C858FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037C3BB91E4B9F1E00C858FA /* Build configuration list for PBXNativeTarget "WellsFargoAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037C3BBA1E4B9F1E00C858FA /* Debug */,
+				037C3BBB1E4B9F1E00C858FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		037C3BAE1E4B9F1E00C858FA /* WellsFargoAssessment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				037C3BAF1E4B9F1E00C858FA /* WellsFargoAssessment.xcdatamodel */,
+			);
+			currentVersion = 037C3BAF1E4B9F1E00C858FA /* WellsFargoAssessment.xcdatamodel */;
+			path = WellsFargoAssessment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 037C3B9C1E4B9F1D00C858FA /* Project object */;
+}
